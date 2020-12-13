@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 
 import product_card from '../../data/product_data';
 
@@ -24,7 +24,7 @@ export default class Vote extends Component {
         </div>
         <div className="button">
           <div className="product-name">
-            {product_card.filter(item => item.id === actualState).map(filteredItem => (
+            {product_card.filter(item => item.id == actualState).map(filteredItem => (
               <h1>{filteredItem.product_name}</h1>
             ))}
           </div>
@@ -34,14 +34,37 @@ export default class Vote extends Component {
           <h4>texto e o vídeo que o user fez Quanto arrecadou: R$ Y % de bater a meta</h4>
         </div>
         <div className="product-image">
-        {product_card.filter(item => item.id === actualState).map(filteredItem => (
+        {product_card.filter(item => item.id == actualState).map(filteredItem => (
           <img src={filteredItem.thumb} alt='thumbnail do item'/>
         ))}
         </div>
         <div className="product-description">
-          {product_card.filter(item => item.id === actualState).map(filteredItem => (
+          {product_card.filter(item => item.id == actualState).map(filteredItem => (
             <h3>{filteredItem.description}</h3>
           ))}
+        </div>
+        <div className="button-b">
+          <div className="product-name">
+            <h1>Eu quero essa cerveja</h1>
+          </div>
+        </div>
+        <div className="button-b">
+          <div className="product-name">
+            <h1>Ver opções semelhantes</h1>
+          </div>
+        </div>
+        <div className="button-b">
+          <div className="product-name">
+            <h1>Compartilhar nas redes sociais</h1>
+          </div>
+        </div>
+        <div className="button-c">
+          <div className="product-name">
+            <h1>Não tem na sua região? Clique aqui e crie a sua!</h1>
+          </div>
+        </div>
+        <div className="nada">
+            <p>.</p>
         </div>
       </div>
     );

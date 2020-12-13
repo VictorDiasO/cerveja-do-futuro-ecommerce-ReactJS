@@ -1,8 +1,9 @@
-* {
+.product {
     position: relative;
     background-color: rgba(39, 44, 50, 1);
-    margin-left: 50px;
-    margin-top: 20px;
+    margin: 0px;
+    /* margin-left: 50px; */
+    /* margin-top: 20px; */
     /* justify-content: center;
     align-items: center;
     justify-items: center; */
@@ -30,6 +31,27 @@
     background-color: yellow;
 }
 
+.product .button-b {
+    width: 310px;
+    border: 5px solid yellow;
+    margin-bottom: 33px;
+    color:black;
+    background-color: yellow;
+    padding-left: 60px;
+    margin-left: 500px;
+}
+
+.product .button-c {
+    width: 390px;
+    border: 5px solid yellow;
+    margin-top: 53px;
+    margin-bottom: 33px;
+    color:black;
+    background-color: yellow;
+    padding-left: 80px;
+    margin-left: 470px;
+}
+
 .product .text {
     color: #FFFFFF;
     padding-top: 10px;
@@ -50,7 +72,7 @@
     color: #FFFFFF;
     padding-top: 10px;
     padding-bottom: 40px;
-    padding-left: 450px;
+    padding-left: 480px;
     font-size: 20px;
 }
 

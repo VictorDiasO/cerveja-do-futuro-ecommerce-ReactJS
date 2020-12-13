@@ -61,7 +61,7 @@ const product_card = [
         description: "Geladinha e gostosinha!",
         price: 250,
         currency: "R$",
-        thumb: ".,/images/2.png"
+        thumb: "../images/2.png"
     },
     {
         id: "9",
