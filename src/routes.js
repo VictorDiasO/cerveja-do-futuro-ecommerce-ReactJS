@@ -5,6 +5,8 @@ import { BrowserRouter, Switch ,Route } from 'react-router-dom';
 import Application from './pages/Main';
 import Vote from './pages/vote';
 import OurProducts from './pages/ourproducts';
+import Comprar from './pages/comprar';
+
 // import Community from './pages/community';
 
 // export default class Routes extends Component {
@@ -40,6 +42,7 @@ export default function Routes() {
                 <Route exact path='/' component={Application} />
                 <Route path='/vote/:id' component={Vote} />
                 <Route path='/ourproducts' component={OurProducts} />
+                <Route path='/comprar' component={Comprar} />
                 {/* <Route path='/community' component={Community} /> */}
             </Switch>
         </BrowserRouter>

@@ -1,0 +1,37 @@
+.product {
+    position: relative;
+    background-color: rgba(39, 44, 50, 1);
+    margin: 0px;
+    /* margin-left: 50px; */
+    /* margin-top: 20px; */
+    /* justify-content: center;
+    align-items: center;
+    justify-items: center; */
+}
+
+.product .text h4 {
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.product .button-b {
+    position:relative;
+    width: 320px;
+    padding: 3px;
+    border: 5px solid yellow;
+    margin-left: 470px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-left: 60px;
+    color:black;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+/* .product .button-b {
+    background-color: yellow;
+} */

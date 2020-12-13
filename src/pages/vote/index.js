@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 // import ReactDOM from 'react-dom';
 
 import product_card from '../../data/product_data';
@@ -45,7 +46,7 @@ export default class Vote extends Component {
         </div>
         <div className="button-b">
           <div className="product-name">
-            <h1>Eu quero essa cerveja</h1>
+            <Link to="/comprar" style={{ textDecoration: 'none', color: 'black' }}> <h1>Eu quero essa cerveja</h1></Link>
           </div>
         </div>
         <div className="button-b">
