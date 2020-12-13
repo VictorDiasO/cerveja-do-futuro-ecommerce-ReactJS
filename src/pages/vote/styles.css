@@ -1,0 +1,59 @@
+* {
+    position: relative;
+    background-color: rgba(39, 44, 50, 1);
+    margin-left: 50px;
+    margin-top: 20px;
+    /* justify-content: center;
+    align-items: center;
+    justify-items: center; */
+}
+
+.product .apresentacao {
+    font-size: 25px;
+    color: #FFFFFF;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Roboto', 'Helvetica Neue', sans-serif; */
+    padding-left: 310px;
+    padding-top: 20px;
+    padding-bottom: 10px; 
+}
+
+.product .button {
+    position:relative;
+    width: 320px;
+    padding: 5px;
+    border: 5px solid yellow;
+    margin-left: 470px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 100px;
+    color:yellow;
+    background-color: yellow;
+}
+
+.product .text {
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 310px;
+    font-size: 20px;
+}
+
+.product .button .product-name {
+    position:relative;
+    width: 0px;
+    padding: 0px;
+    margin: 0;
+    color: #000;
+}
+
+.product .product-description {
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 450px;
+    font-size: 20px;
+}
+
+.product .product-image {
+    padding-left: 590px;
+}
