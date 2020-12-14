@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Cerveja do futuro: E-commerce
+
+### Página de votação
+A página de votação (nesse caso, a inicial) apresenta várias fotos de produtos diferentes com as descricões dos mesmos.
+
+### Página de crowdFunding
+após clicar no botão "Votar" na página de votação, você acessa uma página de crowdfunding que é inteiramente voltada para aquele produto em específico, mostrando uma foto mais detalhada, descrição completa e a opção de participar do 
+
+
+====================//=====================//====================//=====================//
+
+
+## Instruções:
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
